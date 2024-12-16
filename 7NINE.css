@@ -1,0 +1,191 @@
+/* Reset and Basic Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e5f0e1;
+    color: #333;
+}
+
+/* Navbar Styles */
+.navbar {
+
+    background-image: linear-gradient(#065e0a, #baf0a8);
+    /* Dark Green */
+    padding: 20px 20px;
+}
+
+.navbar input[type="text"] {
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-content: right;
+    font-size: 16px;
+}
+
+.navbar li {
+    position: relative;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 15px;
+    display: inline-block;
+}
+
+/* Dropdown Menus */
+.navbar .dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.navbar .dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    padding: 10px 0;
+    /* Reduced vertical padding */
+    border-radius: 5px;
+    top: 40px;
+    left: 0;
+    min-width: 180px;
+    color: black;
+    /* Minimum width to avoid it collapsing */
+}
+
+.navbar .dropdown-item {
+    position: relative;
+}
+
+.navbar .sub-dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    /* Align directly next to the parent */
+    background-color: #ffffff;
+    padding: 5px 10px;
+    /* Reduced padding */
+    border-radius: 5px;
+    width: 90%;
+}
+
+.navbar .dropdown-item:hover .sub-dropdown-menu {
+    display: block;
+}
+
+/* Hover Effects */
+.navbar .dropdown-menu a,
+.navbar .sub-dropdown-menu a {
+    color: #313330;
+    padding: 5px;
+    display: block;
+    margin: 2px;
+    /* Reduced vertical margin */
+}
+
+.navbar .dropdown-item:hover a {
+    background-color: #ffffff;
+    font-weight: 15px;
+    /* black */
+}
+
+/* Focused State for the Dropdown */
+.navbar .dropdown-item a:hover {
+    background-color: #ffffff;
+    /* Dark Red */
+    color: #313330;
+    font-weight: 15px;
+}
+
+/* Main Body */
+.main-body {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #e5f0e1;
+    /* Light Grey */
+}
+
+.main-body h1 {
+    font-size: 36px;
+    color: #8B0000;
+}
+
+.main-body p {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.explore-menu-section {
+    background-color: #e5f0e1;
+}
+
+.menu-section-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.menu-item-image {
+    border-top-right-radius: 500px;
+    border-bottom-right-radius: 500px;
+    border-top-left-radius: 500px;
+    border-bottom-left-radius: 500px;
+    height: 10vh;
+    width: 10px;
+}
+
+.menu-card-title {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 18px;
+
+    font-weight: 500;
+    margin-top: 24px;
+}
+
+.menu-item-link {
+    color: #d0b200;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.menu-item-card {
+    border-radius: 16px;
+    width: 10vw;
+}

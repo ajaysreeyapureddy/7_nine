@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/2008034ab2.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover Example</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="#" class="brand">7 NINE Store</a></li>
+            <li><input type="text" placeholder="Search product" class="search-bar"></li>
+            <li class="dropdown">
+                <a href="#">Categories</a>
+                <ul class="dropdown-menu">
+                    <li class="dropdown-item">
+                        <a href="#">Veg</a>
+                        <ul class="sub-dropdown-menu">
+                            <li><a href="#">Milk</a></li>
+                            <li><a href="#">Masala</a></li>
+                            <li><a href="#">Spices</a></li>
+                            <li><a href="#">Leafy Vegetables</a></li>
+                            <li><a href="#">Raw Vegetables</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown-item">
+                        <a href="#">Non-Veg</a>
+                        <ul class="sub-dropdown-menu">
+                            <li><a href="#">Chicken</a></li>
+                            <li><a href="#">Mutton</a></li>
+                            <li><a href="#">Fish</a></li>
+                            <li><a href="#">Sea Food</a></li>
+                            <li><a href="#">Eggs</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown-item">
+                        <a href="#">Beverages</a>
+                        <ul class="sub-dropdown-menu">
+                            <li><a href="#">Ice Creams</a></li>
+                            <li><a href="#">Cool Drinks</a></li>
+                            <li><a href="#">Ice Cubes</a></li>
+                            <li><a href="#">Energy Drinks</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Sign In</a></li>
+            <li><a href="#">Cart</a></li>
+        </ul>
+    </nav>
+    <!--curosul Section-->
+    <div class="banner-section-carousel d-flex justify-content-end flex-column " id="homesection">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item" style="width: 100%; height: 500px;">
+                    <img src="https://res.cloudinary.com/dduhhzwcs/image/upload/v1731308992/top-view-fresh-fish-slices-with-red-tomatoes-dark-blue-table-ocean-meat-seafood-food-pepper-water-dish-sea-meal_g6msgc.jpg" class="d-block  transformNav w-100 h-100" alt="..." />
+                </div>
+                <div class="carousel-item active" style="width: 100%; height: 500px;">
+                    <img src="https://res.cloudinary.com/dduhhzwcs/image/upload/v1730683603/7NINE/7nine_Banner_Section.jpg" class="d-block w-100 h-100" alt="..." />
+                </div>
+                <div class="carousel-item" style="width: 100%; height: 500px;">
+                    <img src="https://res.cloudinary.com/dduhhzwcs/image/upload/v1730737677/raw-chicken-fillet-with-garlic-pepper-rosemary-wooden-chopping-board_duk10j.jpg" class="d-block  transformNav w-100 h-100" alt="..." />
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+
+
+
+    <!-- Main Body -->
+    <div class="main-body">
+        <h1>Welcome to 7 NINE Store!</h1>
+        <p>Exclusive offers and fresh products for a luxurious shopping experience.</p>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="explore-menu-section pt-5 pb-5" id="exploreMenuSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="menu-section-heading">Explore Menu</h1>
+                </div>
+                <div class="col-12 col-md-6 col-lg-2">
+                    <div class="shadow menu-item-card p-3 mb-3">
+                        <img src="https://res.cloudinary.com/dduhhzwcs/image/upload/v1731308984/top-fresh-meal-diet-healthy_i6nhhs.jpg" class="menu-item-image w-100" />
+                        <h1 class="menu-card-title">Dressed Chicken</h1>
+                        <a href="" class="menu-item-link">
+                            View All
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-2">
+                    <div class="shadow menu-item-card p-3 mb-3">
+                        <img src="https://res.cloudinary.com/dduhhzwcs/image/upload/v1730737128/raw-chicken-breast-dark-surface_sflbyg.jpg" class="menu-item-image w-100" />
+                        <h1 class="menu-card-title">Chicken Brest</h1>
+                        <a href="" class="menu-item-link">
+                            View All
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-2">
+                    <div class="shadow menu-item-card p-3 mb-3">
+                        <img src="https://res.cloudinary.com/dduhhzwcs/image/upload/v1730737128/raw-chicken-breast-dark-surface_sflbyg.jpg" class="menu-item-image w-100" />
+                        <h1 class="menu-card-title">Chicken Boneless</h1>
+                        <a href="" class="menu-item-link">
+                            View All
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-2">
+                    <div class="shadow menu-item-card p-3 mb-3">
+                        <img src="https://res.cloudinary.com/dduhhzwcs/image/upload/v1731308992/top-view-red-raw-fresh-meat-lemon-black-board-brown-wooden-hammer-pepper-pastel-red-background_ctx2n6.jpg" class="menu-item-image w-100" />
+                        <h1 class="menu-card-title">Mutton Boneless</h1>
+                        <a href="" class="menu-item-link">
+                            View All
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-2">
+                    <div class="shadow menu-item-card p-3 mb-3">
+                        <img src="https://res.cloudinary.com/dduhhzwcs/image/upload/v1731308992/high-angle-meat-with-chili-spices_mktbvl.jpg" class="menu-item-image w-100" />
+                        <h1 class="menu-card-title">Mutton Kheema</h1>
+                        <a href="" class="menu-item-link">
+                            View All
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-2">
+                    <div class="shadow menu-item-card p-3 mb-3">
+                        <img src="https://res.cloudinary.com/dduhhzwcs/image/upload/v1731308987/lamb-leg-wooden-board-prepared-cook-tomato-broccoli-salt-top-view_rictht.jpg" class="menu-item-image w-100" />
+                        <h1 class="menu-card-title">Mutton Whole Leg</h1>
+                        <a href="" class="menu-item-link">
+                            View All
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-2">
+                    <div class="shadow menu-item-card p-3 mb-3">
+                        <img src="https://res.cloudinary.com/dduhhzwcs/image/upload/v1731308987/top-view-delicious-salmon-table_xzkrtz.jpg" class="menu-item-image w-100" />
+                        <h1 class="menu-card-title">Appolo Boneless</h1>
+                        <a href="" class="menu-item-link">
+                            View All
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-2">
+                    <div class="shadow menu-item-card p-3 mb-3">
+                        <img src="https://res.cloudinary.com/dduhhzwcs/image/upload/v1731308992/top-view-fresh-fish-slices-with-red-tomatoes-dark-blue-table-ocean-meat-seafood-food-pepper-water-dish-sea-meal_g6msgc.jpg" class="menu-item-image w-100" />
+                        <h1 class="menu-card-title">Murrel Boneless</h1>
+                        <a href="" class="menu-item-link">
+                            View All
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+                <div class="col-12 col-md-6 col-lg-2">
+                    <div class="menu-item-card shadow p-3 mb-3">
+                        <img src="https://res.cloudinary.com/dduhhzwcs/image/upload/v1730737677/raw-chicken-fillet-with-garlic-pepper-rosemary-wooden-chopping-board_duk10j.jpg" class="menu-item-image w-100" />
+                        <h1 class="menu-card-title">Chicken Biriyani Cut</h1>
+                        <a class="menu-item-link">
+                            View All
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-2">
+                    <div class="menu-item-card shadow p-3 mb-3">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/em-grilled-seafood-img.png" class="menu-item-image w-100" />
+                        <h1 class="menu-card-title">Fish & Sea food</h1>
+                        <a class="menu-item-link">
+                            View All
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-2">
+                    <div class="menu-item-card shadow p-3 mb-3">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/em-coffee-bourbon-img.png" class="menu-item-image w-100" />
+                        <h1 class="menu-card-title">Ice Creams</h1>
+                        <a class="menu-item-link">
+                            View All
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <div class="follow-us-section pt-5 pb-5" id="followUsSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="follow-us-section-heading">Follow Us</h1>
+                </div>
+                <div class="col-12">
+                    <div class="d-flex flex-row justify-content-center">
+                        <div class="follow-us-icon-container">
+                            <i class="fab fa-twitter icon"></i>
+                        </div>
+                        <div class="follow-us-icon-container">
+                            <i class="fab fa-instagram icon"></i>
+                        </div>
+                        <div class="follow-us-icon-container">
+                            <i class="fab fa-facebook icon"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    -->
+
+</body>
+
+</html>
